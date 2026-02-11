@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.kalender.de/sitemap.xml
+Sitemap: https://www.praktische-kalender.de/sitemap.xml

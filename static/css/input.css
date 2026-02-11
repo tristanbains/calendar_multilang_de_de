@@ -142,14 +142,11 @@
 
   /* Desktop dropdown navigation */
   .nav-dropdown__panel {
-    @apply invisible opacity-0 absolute top-full left-0 pt-2 transition-all duration-150 z-50;
+    @apply invisible opacity-0 absolute top-full right-0 pt-2 transition-all duration-150 z-50;
   }
   .nav-dropdown:hover .nav-dropdown__panel,
   .nav-dropdown:focus-within .nav-dropdown__panel {
     @apply visible opacity-100;
-  }
-  .nav-dropdown--end .nav-dropdown__panel {
-    @apply left-auto right-0;
   }
   .nav-dropdown__grid {
     @apply grid grid-cols-2 gap-1;
